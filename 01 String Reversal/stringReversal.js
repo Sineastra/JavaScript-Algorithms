@@ -1,1 +1,5 @@
-module.exports = str => str.split("").reverse().join("")
+module.exports = reverseStr
+
+function reverseStr (str) {
+	return str.split("").reverse().join("")
+}
