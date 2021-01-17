@@ -1,0 +1,35 @@
+{
+    "name": "algorithms",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sineastra/JavaScript-Algorithms.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sineastra/JavaScript-Algorithms/issues"
+    },
+    "homepage": "https://github.com/Sineastra/JavaScript-Algorithms#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1"
+    },
+    "dependencies": {
+        "prettier": "^2.2.1"
+    },
+    "prettier": {
+        "arrowParens": "avoid",
+        "endOfLine": "crlf",
+        "htmlWhitespaceSensitivity": "css",
+        "semi": false,
+        "tabWidth": 4,
+        "printWidth": 100,
+        "proseWrap": "preserve"
+    }
+}
